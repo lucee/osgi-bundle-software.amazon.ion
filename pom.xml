@@ -2,11 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.lucee</groupId>
   <artifactId>software.amazon.ion</artifactId>
-  <version>5.1.2</version>
-  <name>xmpcore</name>
+  <version>1.0.1</version>
+  <name>software.amazon.ion</name>
   <packaging>bundle</packaging>
 
-  <description>OSGi Version of xmpcore</description>
+  <description>OSGi Version of software.amazon.ion</description>
   <url>http://maven.lucee.org/software.amazon.ion/</url>
 
   <!-- same license as the original jar -->
@@ -95,7 +95,7 @@
                  <artifactItem>
                    <groupId>software.amazon.ion</groupId>
                     <artifactId>ion-java</artifactId>
-                    <version>5.1.2</version>
+                    <version>1.0.1</version>
                    <type>jar</type>
                    <overWrite>false</overWrite>
                    <outputDirectory>${project.build.directory}/classes</outputDirectory>
@@ -139,7 +139,7 @@
     <url>https://github.com/lucee/osgi-bundle-software.amazon.ion</url>
     <connection>scm:git:git://github.com/lucee/osgi-bundle-software.amazon.ion.git</connection>
     <developerConnection>scm:git:git@github.com:lucee/osgi-bundle-software.amazon.ion.git</developerConnection>
-    <tag>xmpcore OSGi library</tag>
+    <tag>software.amazon.ion OSGi library</tag>
   </scm>
 
   <distributionManagement>
